@@ -23,8 +23,8 @@ class PostsTagsSeeder extends Seeder
       $rand_nr = rand(1, 4);
 
       for($i = 0; $i < $rand_nr; $i++) {
-          // get a random tag id, and attach to actual post
-          $post->tags()->attach($tags_ids[array_rand($tags_ids)]);
+        // get a random tag id, and attach to actual post
+        $post->tags()->attach($tags_ids[array_rand($tags_ids)]);
       }
         
     }
