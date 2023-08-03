@@ -9,6 +9,6 @@ Installation:
 3. Run the migrations and seeders
 4. Enjoy :)
 
-Some additional commands if you will need:
-php artisan key:generate
-php artisan config:cache
+*Some additional commands if you will need:
+- php artisan key:generate
+- php artisan config:cache
