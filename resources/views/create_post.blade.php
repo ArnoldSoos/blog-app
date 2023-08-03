@@ -14,7 +14,7 @@
         <div class="field">
 				  <label class="label">Title</label>
 				  <div class="control">
-				    <input class="input" id="title" name="title" type="text" placeholder="Post title" required>
+				    <input class="input" id="title" name="title" type="text" placeholder="Post title" required maxlength="50">
 				  </div>
 				</div>
 				@error('title')
@@ -24,7 +24,7 @@
 				<div class="field">
 				  <label class="label">Content</label>
 				  <div class="control">
-				    <textarea class="textarea" id="content" name="content" placeholder="Post content" required></textarea>
+				    <textarea class="textarea" id="content" name="content" placeholder="Post content" required maxlength="2000"></textarea>
 				  </div>
 				</div>
 				@error('content')
